@@ -1,10 +1,10 @@
-import './App.css'
+import s from './App.module.sass'
 
 function App() {
   return (
     <>
       <div>
-        <h1>Hello world</h1>
+        <h1 className={s.heading}>Hello world</h1>
       </div>
     </>
   )
