@@ -24,5 +24,6 @@ module.exports = {
       { allowConstantExport: true },
     ],
     'react/react-in-jsx-scope': 0,
+    'react/destructuring-assignment': 0,
   },
 }
