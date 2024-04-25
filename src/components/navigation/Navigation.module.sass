@@ -6,12 +6,11 @@
     margin: 0
     padding: 0
   &__item
-    &:not(:last-child)
-      margin-right: 2em
-    a
-      position: relative
-      display: inline-flex
+    position: inherit
+  &__link
+    position: relative
+    display: inline-flex
+    text-decoration: none
+    padding: 0.25em .5em
+    &:hover
       text-decoration: none
-      padding: 0.25em .5em
-      &:hover
-        text-decoration: none
