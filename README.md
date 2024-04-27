@@ -7,6 +7,7 @@
 - 🖌️ `dart-sass` support - I extend it with CSS Modules.
 - 🔀 `react-router-dom` v6 as the router.
 - 🧪 `vitest` as the test framework.
+- 🚄 `express` server.
 
 ## Quick start
 

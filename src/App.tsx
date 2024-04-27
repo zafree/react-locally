@@ -15,24 +15,22 @@ import './App.module.sass'
 
 function App() {
   return (
-    <BrowserRouter>
-      <AppLayout>
-        <Header>
-          <Navigation>
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="about">About</NavLink>
-            <NavLink to="contact">Contact</NavLink>
-          </Navigation>
-        </Header>
-        <Content>
-          <Routes>
-            <Route index element={<Home />} />
-            <Route path="about" element={<About />} />
-            <Route path="contact" element={<Contact />} />
-          </Routes>
-        </Content>
-      </AppLayout>
-    </BrowserRouter>
+    <AppLayout>
+      <Header>
+        <Navigation>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="about">About</NavLink>
+          <NavLink to="contact">Contact</NavLink>
+        </Navigation>
+      </Header>
+      <Content>
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="contact" element={<Contact />} />
+        </Routes>
+      </Content>
+    </AppLayout>
   )
 }
 
